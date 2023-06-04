@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-nav{
+    background-color: #353A40;
+  
+}
+
+.nav-a{
+    color: #6C757C;
+}
+
+.fondo{
+   background-image: url("../imagenes/hawaii.jpg");
+   height: 80vh;
+   background-position: center;
+   background-size: cover;
+   align-items: center;
+   margin-top: 5em;
+   background-color: rgb(71, 70, 70);
+   background-blend-mode:soft-light;
+}
+
+
+.col-6{
+    text-align:right;
+}
+
+.alto100{
+    height: 100%;
+}
+
+.container{
+    width: 55%;
+}
+.container-hijo{
+    width: 48%;
+}
+
+.texto-gris{
+    color: #6C757C;
+}
+
+::placeholder {
+    color: #6C757C;
+  }
+
+.btn-enviar{
+    background-color: #96C93E;
+    color: white;
+}
+
+
+.btn-js{
+    background-color: #FFC10A;
+    color: black;
+}
+
+.btn-react{
+    background-color: #19A1B7;
+    color: white;
+}
+
+
+.btn-business{
+    background-color: #6C757C;
+    color: white;
+
+}
+
+
+.btn-startup{
+    background-color: #DC3546;
+    color: white;
+}
+
+
+.bg-footer{
+    background-color: #1C3846;
+}
+
+.footer{
+    display: flex;
+    height: 10vh;
+    justify-content: space-evenly;
+   
+}
+.footer-link{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-right: 5vh;
+}
